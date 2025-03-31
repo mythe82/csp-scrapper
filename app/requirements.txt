@@ -1,0 +1,7 @@
+beautifulsoup4
+playwright
+sumy
+feedparser
+python-dotenv
+deep-translator
+matplotlib

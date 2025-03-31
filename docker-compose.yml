@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  csp-scrapper:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: csp-scrapper
+    env_file:
+      - ./app/.env
+    volumes:
+      - ./app/output:/app/output

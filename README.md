@@ -84,7 +84,7 @@ docker-compose down
 ```bash
 crontab -e
 
-0 9 * * MON cd /home/ubuntu/csp-scrapper && docker run --rm --env-file ./app/.env -v $(pwd)/app/output:/app/output csp-scrapper
+0 9 * * FRI cd /home/ubuntu/csp-scrapper && docker run --rm --env-file ./app/.env -v $(pwd)/app/output:/app/output csp-scrapper
 ```
 
 📥 Output

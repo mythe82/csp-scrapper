@@ -17,7 +17,7 @@ AWS, Azure, GCP의 **주간 업데이트 뉴스레터**를 자동으로 크롤�
 ## 🚀 설치 및 실행
 ### 1. 클론
 ```bash
-git clone https://github.com/mooa-lee/csp-scrapper.git
+git clone https://github.com/mythe82/csp-scrapper.git
 cd csp-scrapper
 ```
 
